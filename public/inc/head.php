@@ -9,6 +9,9 @@
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/5-4/js/5-4.js"></script>
 
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/db941da5d3.js" crossorigin="anonymous"></script>
+
     <style>
         html, body { margin: 0; padding: 0; height: 100%; }
     </style>

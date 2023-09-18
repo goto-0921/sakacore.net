@@ -13,9 +13,6 @@
                     <a class="nav-link" href="#">TOP</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT ME</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="#">WORK</a>
                 </li>
                 <li class="nav-item">
@@ -36,39 +33,78 @@
                     </div>
 
                     <div class="profileBox mt-md-0 mt-5 mx-3">
-                        <p class="h4 pb-2 mb-4 text-white border-bottom border-white">プロフィール</p>
+                        <p class="h3 pb-2 mb-4 border-bottom border-white title">プロフィール / Taiki Goto <span>（1999年生まれ）</span></p>
 
-                        <div class="h6 mb-3">略歴</div>
+                        <div class="h6 mb-3 headline"><i class="fa-solid fa-square"></i> 略歴</div>
                         <p class="mb-0">現職ではシステムエンジニアとして、新規事業の開発やシステム運用を行なっています。</p>
-                        <p class="mb-0">大学生時代にプログラミングスクールに通い始め、現在までエンジニアとしてキャリアを築いてきました。</p>
+                        <p class="mb-1">大学生時代にプログラミングスクールに通い始め、現在までエンジニアとしてキャリアを築いてきました。</p>
                         <p class="mb-0">これらの経験をいかし、クリエイティブの力でお客様の課題を解決するWebデザイナーを目指しています。</p>
 
-                        <div class="h6 mt-4 mb-3">将来像</div>
+                        <div class="h6 mt-5 mb-3 headline"><i class="fa-solid fa-square"></i> 将来像</div>
                         <p class="mb-0">携わるビジネスのあるべき姿を相手と共創、そこから逆算しデザインへ昇華できるデザイナーを目指しています。</p>
                         <p class="mb-0">また粘り強さと素直さをいかし、デザイナーとしてのスキルを磨き続けます。</p>
+
+                        <div class="h6 mt-5 mb-3 headline"><i class="fa-solid fa-square"></i> 趣味</div>
+                        <p class="mb-0">映画鑑賞、旅行、サッカー観戦</p>
                     </div>
                 </div>
+
+                <style>
+                    @media screen and (min-width: 769px) {
+                        div.main-top { margin-top: 250px; }
+                        div.main-top img { width: 200px; }
+                        div.imgBox { width: 40% }
+                        div.profileBox { width: 60% }
+                    }
+
+                    @media screen and (max-width: 768px) {
+                        div.main-top img { width: 200px; }
+                    }
+
+                    div.profileBox { color: #ffffff; }
+                    div.profileBox p.title { color: #add8e6;font-weight: 400; }
+                    div.profileBox p.title span { font-size: 16px; color: #fff; word-break: keep-all; }
+
+                    div.profileBox div.headline { font-weight: 600; }
+                </style>
             </div>
 
-            <style>
-                @media screen and (min-width: 769px) {
-                    div.main-top { margin-top: 250px; }
-                    div.main-top img { width: 200px; }
-                    div.imgBox { width: 40% }
-                    div.profileBox { width: 60% }
-                }
+            <div class="mx-auto mt-5" style="max-width: 1024px;">
+                <p class="h3 pb-2 mx-3 mb-4 border-bottom border-white title">スキル・特性</p>
 
-                @media screen and (max-width: 768px) {
-                    div.main-top img { width: 200px; }
-                    /* div.imgBox { width: 100% }
-                    div.profileBox { width: 100% } */
-                }
+                <div class="d-md-flex flex-wrap justify-content-between mx-3">
+                    <div class="skillBox rounded-4 mb-3" style="background: linear-gradient(45deg, #add8e6 50%, rgb(255, 255, 255) 48%);">
+                        <div class="p-4">
+                            <div class="h6 mb-3 headline">デザイン</div>
+                        </div>
+                    </div>
+                    <div class="skillBox rounded-4 mb-3" style="background: linear-gradient(315deg, #add8e6 50%, #ffffff 40%);">
+                        <div class="p-4">
+                            <div class="h6 mb-3 headline">実装</div>
+                        </div>
+                    </div>
+                    <div class="skillBox rounded-4 mb-3" style="background: linear-gradient(225deg, #add8e6 50%, #ffffff 39%);">
+                        <div class="p-4">
+                            <div class="h6 mb-3 headline">発揮できる特性</div>
+                        </div>
+                    </div>
+                </div>
 
-                div.profileBox {
-                    color: #ffffff;
-                }
-            </style>
+                <style>
+                    p.title { color: #add8e6;font-weight: 400; }
+
+                    @media screen and (min-width: 769px) {
+                        div.skillBox { width: 308px; height: 300px; }
+                    }
+                </style>
+            </div>
         </main>
+
+        <footer>
+            <style>
+                footer { padding: 30px;}
+            </style>
+        </footer>
     </div>
 
     <style>
