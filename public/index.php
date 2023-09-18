@@ -1,24 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document HP</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-
-    <!-- 背景に星座 -->
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/5-4/js/5-4.js"></script>
-</head>
-
-<?php
-    $document_root = $_SERVER['DOCUMENT_ROOT'];
-?>
-
-<style>
-    html, body { margin: 0; padding: 0; height: 100%; }
-</style>
+<?php include('inc/head.php'); ?>
 
 <body>
     <div id="particles-js"></div>
@@ -30,18 +13,62 @@
                     <a class="nav-link" href="#">TOP</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">MYSELF</a>
+                    <a class="nav-link" href="#">ABOUT ME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">WORK ABOUT</a>
+                    <a class="nav-link" href="#">WORK</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">CONTACT</a>
                 </li>
             </ul>
+
+            <style>
+                ul.nav a.nav-link { color: #fff; font-weight: 600; }
+            </style>
         </header>
 
-        <main></main>
+        <main>
+            <div class="mx-auto mt-5" style="max-width: 960px;">
+                <div class="d-md-flex justify-content-center main-top">
+                    <div class="imgBox text-center">
+                        <img class="img-thumbnail rounded-circle" src="/inc/img/rinchyan.jpeg" alt="rinchyan.jpeg">
+                    </div>
+
+                    <div class="profileBox mt-md-0 mt-5 mx-3">
+                        <p class="h4 pb-2 mb-4 text-white border-bottom border-white">プロフィール</p>
+
+                        <div class="h6 mb-3">略歴</div>
+                        <p class="mb-0">現職ではシステムエンジニアとして、新規事業の開発やシステム運用を行なっています。</p>
+                        <p class="mb-0">大学生時代にプログラミングスクールに通い始め、現在までエンジニアとしてキャリアを築いてきました。</p>
+                        <p class="mb-0">これらの経験をいかし、クリエイティブの力でお客様の課題を解決するWebデザイナーを目指しています。</p>
+
+                        <div class="h6 mt-4 mb-3">将来像</div>
+                        <p class="mb-0">携わるビジネスのあるべき姿を相手と共創、そこから逆算しデザインへ昇華できるデザイナーを目指しています。</p>
+                        <p class="mb-0">また粘り強さと素直さをいかし、デザイナーとしてのスキルを磨き続けます。</p>
+                    </div>
+                </div>
+            </div>
+
+            <style>
+                @media screen and (min-width: 769px) {
+                    div.main-top { margin-top: 250px; }
+                    div.main-top img { width: 200px; }
+                    div.imgBox { width: 40% }
+                    div.profileBox { width: 60% }
+                }
+
+                @media screen and (max-width: 768px) {
+                    div.main-top img { width: 200px; }
+                    /* div.imgBox { width: 100% }
+                    div.profileBox { width: 100% } */
+                }
+
+                div.profileBox {
+                    color: #ffffff;
+                }
+            </style>
+        </main>
     </div>
 
     <style>
@@ -59,8 +86,6 @@
             width:100%;
             height: 100%;
         }
-
-        ul.nav a.nav-link { color: #fff; font-weight: 600; }
     </style>
 
     <script src="/inc/js/background.js"></script>
