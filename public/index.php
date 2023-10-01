@@ -7,23 +7,7 @@
     <div id="particles-js"></div>
 
     <div id="wrapper">
-        <header>
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">TOP</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">WORK</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACT</a>
-                </li>
-            </ul>
-
-            <style>
-                ul.nav a.nav-link { color: #fff; font-weight: 600; }
-            </style>
-        </header>
+        <?php include('inc/header.php'); ?>
 
         <main>
             <div class="mx-auto mt-5" style="max-width: 960px;">
@@ -73,7 +57,7 @@
                 <p class="h3 pb-2 mx-3 mb-4 border-bottom border-white title">スキル・特性</p>
 
                 <div class="d-md-flex flex-wrap justify-content-between mx-3">
-                    <div class="skillBox rounded-4 mb-3" style="background: linear-gradient(45deg, #add8e6 50%, rgb(255, 255, 255) 48%);">
+                    <div class="skillBox mb-3" style="background: linear-gradient(45deg, #add8e6 50%, rgb(255, 255, 255) 48%);">
                         <div class="p-4">
                             <div class="h5 mt-4 mb-3 headline">デザイン</div>
 
@@ -96,7 +80,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="skillBox rounded-4 mb-3" style="background: linear-gradient(315deg, #add8e6 50%, #ffffff 40%);">
+                    <div class="skillBox mb-3" style="background: linear-gradient(315deg, #add8e6 50%, #ffffff 40%);">
                         <div class="p-4">
                             <div class="h5 mt-4 mb-3 headline">実装</div>
 
@@ -123,7 +107,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="skillBox rounded-4 mb-3" style="background: linear-gradient(225deg, #add8e6 50%, #ffffff 39%);">
+                    <div class="skillBox mb-3" style="background: linear-gradient(225deg, #add8e6 50%, #ffffff 39%);">
                         <div class="p-4">
                             <div class="h5 mt-4 mb-3 headline">発揮できる特性</div>
 
@@ -143,11 +127,48 @@
                     }
                 </style>
             </div>
+
+            <div class="mx-auto mt-5" style="max-width: 1024px;">
+                <p class="h3 pb-2 mx-3 mb-4 text-white border-bottom border-white title">お問い合わせ<span class="ms-2">Contact</span></p>
+
+                <div class="mx-auto" style="max-width: 624px;">
+                    <form action="/contact" method="post">
+                        <div class="mx-3 mb-3">
+                            <label for="mail" class="form-label text-white">メールアドレス</label>
+                            <input type="email" name="mail" class="form-control" id="mail" placeholder="name@example.com">
+                        </div>
+
+                        <div class="mx-3 mb-3">
+                            <label for="name" class="form-label text-white">お名前</label>
+                            <input type="text" name="name" class="form-control" id="name" placeholder="山田たろう">
+                        </div>
+
+                        <div class="mx-3 mb-3">
+                            <label for="content" class="form-label text-white">お問い合わせ内容</label>
+                            <textarea class="form-control" name="content" id="content" rows="5"></textarea>
+                        </div>
+
+                        <div class="text-center pt-5">
+                            <button type="submit" name="submit" value="save" class="btn btn-light px-4">送信する</button>
+                        </div>
+                    </form>
+                </div>
+
+                <style>
+                    p.title { color: #add8e6; font-weight: 400; }
+                    p.title span { font-size: 16px; }
+                    button.btn { border-radius: initial; }
+                </style>
+            </div>
+
         </main>
 
         <footer>
+            <div class="mx-auto" style="max-width: 1024px;">
+                <div class="h6 text-white pb-2 mx-3 mb-4">©︎ 2023 Taiki Goto</div>
+            </div>
             <style>
-                footer { padding: 30px;}
+                footer { padding: 30px 0; }
             </style>
         </footer>
     </div>
