@@ -183,8 +183,8 @@
         }
 
         #wrapper{
-            position: relative;/*描画を#particles-jsよりも上にするためposition:relative;を指定*/
-            z-index: 1;/*z-indexの数字を大きくすることで描画を#particles-jsよりも上に*/
+            position: relative;
+            z-index: 1;
             width:100%;
             height: 100%;
         }
