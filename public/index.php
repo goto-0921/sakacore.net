@@ -20,13 +20,13 @@
                         <p class="h3 pb-2 mb-4 border-bottom border-white title">プロフィール / Taiki Goto <span>（1999年生まれ）</span></p>
 
                         <div class="h6 mb-3 headline"><i class="fa-solid fa-square"></i> 略歴</div>
-                        <p class="mb-0">現職ではシステムエンジニアとして、新規事業の開発やシステム運用を行なっています。</p>
+                        <p class="mb-0">現職ではWebエンジニアとして、新規事業の開発やシステム運用を行なっています。</p>
                         <p class="mb-1">大学生時代にプログラミングスクールに通い始め、現在までエンジニアとしてキャリアを築いてきました。</p>
-                        <p class="mb-0">これらの経験をいかし、クリエイティブの力でお客様の課題を解決するWebデザイナーを目指しています。</p>
+                        <p class="mb-0">これらの経験をいかし、クリエイティブの力でお客様の課題を解決するフルスタックエンジニアを目指しています。</p>
 
                         <div class="h6 mt-5 mb-3 headline"><i class="fa-solid fa-square"></i> 将来像</div>
-                        <p class="mb-0">携わるビジネスのあるべき姿を相手と共創、そこから逆算しデザインへ昇華できるデザイナーを目指しています。</p>
-                        <p class="mb-0">また粘り強さと素直さをいかし、デザイナーとしてのスキルを磨き続けます。</p>
+                        <p class="mb-0">携わるビジネスのあるべき姿を相手と共創、そこから逆算しデザインへ昇華できるような仕事を目指しています。</p>
+                        <p class="mb-0">また粘り強さと素直さをいかし、エンジニアとしてのスキルを磨き続けます。</p>
 
                         <div class="h6 mt-5 mb-3 headline"><i class="fa-solid fa-square"></i> 趣味</div>
                         <p class="mb-0">映画鑑賞、旅行、サッカー観戦</p>
@@ -128,7 +128,7 @@
                 </style>
             </div>
 
-            <div class="mx-auto mt-5" style="max-width: 1024px;">
+            <!-- <div class="mx-auto mt-5" style="max-width: 1024px;">
                 <p class="h3 pb-2 mx-3 mb-4 text-white border-bottom border-white title">お問い合わせ<span class="ms-2">Contact</span></p>
 
                 <div class="mx-auto" style="max-width: 624px;">
@@ -159,7 +159,7 @@
                     p.title span { font-size: 16px; }
                     button.btn { border-radius: initial; }
                 </style>
-            </div>
+            </div> -->
 
         </main>
 

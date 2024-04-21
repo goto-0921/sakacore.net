@@ -19,8 +19,8 @@
         <div class="mx-auto mt-5" style="max-width: 1024px;">
             <p class="h3 pb-2 mx-3 mb-5 text-white border-bottom border-white title">お問い合わせ<span class="ms-2">Contact</span></p>
 
-            <div class="mx-auto" style="max-width: 624px;">
-                <form action="/contact" method="post">
+            <div class="mx-auto text-center" style="max-width: 624px;">
+                <!-- <form action="/contact" method="post">
                     <div class="mx-3 mb-3">
                         <label for="mail" class="form-label text-white">メールアドレス</label>
                         <input type="email" name="mail" class="form-control" id="mail" placeholder="name@example.com">
@@ -39,7 +39,9 @@
                     <div class="text-center pt-5">
                         <button type="submit" name="submit" value="save" class="btn btn-light px-4">送信する</button>
                     </div>
-                </form>
+                </form> -->
+
+                <a href="mailto:sui.nano0921@gmail.com" class="btn btn-border">メールでお問い合わせ</a>
             </div>
         </div>
 
@@ -47,6 +49,18 @@
             p.title span { font-size: 16px; }
 
             button.btn { border-radius: initial; }
+
+            a.btn-border {
+                border: 2px solid #000;
+                background: #fff;
+                border-radius: 100px;
+                padding: 15px 30px;
+                display: inline-block;
+            }
+
+            a.btn-border:hover {
+                background: #fff;
+            }
         </style>
     </div>
     

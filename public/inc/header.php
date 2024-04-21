@@ -3,9 +3,9 @@
         <li class="nav-item">
             <a class="nav-link" href="/">TOP</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
             <a class="nav-link" href="#">WORK</a>
-        </li>
+        </li> -->
         <li class="nav-item">
             <a class="nav-link" href="/contact">CONTACT</a>
         </li>
