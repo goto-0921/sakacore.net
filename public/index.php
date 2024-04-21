@@ -17,7 +17,7 @@
                     </div>
 
                     <div class="profileBox mt-md-0 mt-5 mx-3">
-                        <p class="h3 pb-2 mb-4 border-bottom border-white title">プロフィール / Taiki Goto <span>（1999年生まれ）</span></p>
+                        <p class="h3 pb-2 mb-4 border-bottom border-white title">プロフィール / Goto Taiki（後藤 泰己） <span>（1999年生まれ）</span></p>
 
                         <div class="h6 mb-3 headline"><i class="fa-solid fa-square"></i> 略歴</div>
                         <p class="mb-0">現職ではWebエンジニアとして、新規事業の開発やシステム運用を行なっています。</p>
