@@ -13,7 +13,7 @@
             <div class="mx-auto mt-5" style="max-width: 960px;">
                 <div class="d-md-flex justify-content-center main-top">
                     <div class="imgBox text-center">
-                        <img class="img-thumbnail rounded-circle" src="/inc/img/rinchyan.jpeg" alt="rinchyan.jpeg">
+                        <img class="img-thumbnail rounded-circle" src="/inc/img/sakacore.jpeg" alt="sakacore.jpeg">
                     </div>
 
                     <div class="profileBox mt-md-0 mt-5 mx-3">
